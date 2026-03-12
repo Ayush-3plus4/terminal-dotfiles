@@ -1,0 +1,11 @@
+# Exclude backup shell config files
+bashrc_backup
+zshrc_backup
+bash_profile_backup
+
+# Exclude any files with secrets
+.env
+.env.local
+*.key
+*.pem
+credentials.json
