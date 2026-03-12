@@ -1,0 +1,13 @@
+# .bashrc_backup
+
+# Updated .bashrc configuration
+
+# Other configurations...
+
+# Replace path
+export PATH="~/.local/bin:$PATH"
+
+# Removed empty export
+# export GEMINI_API_KEY=""
+
+# Rest of the configurations...
