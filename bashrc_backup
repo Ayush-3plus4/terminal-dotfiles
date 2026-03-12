@@ -115,6 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export PATH=$PATH:/home/macayush/.local/bin
+export PATH=$PATH:~/.local/bin
 eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/hul10.omp.json)"
-export GEMINI_API_KEY=""
